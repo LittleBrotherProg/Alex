@@ -1,0 +1,141 @@
+body{
+    background-image: url('main.jpg') ;
+    background-size: cover;
+}
+
+.head{
+    background-color: white;
+    border-radius: 30px;
+    border: #D60062 5px solid;
+    opacity: 1;
+    margin-left: 500px;
+    margin-right: 500px;
+    
+   
+}  
+.head .info{
+    display: flex;
+    justify-content: space-around;
+    flex-direction:  column;
+    text-align: center;
+}
+.head .buttons{
+    display: flex;
+    justify-content: space-around;
+    flex-direction:  column;
+}
+
+.head .buttons .c1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.head .buttons .c2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.head .buttons .c3{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+button{
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 10px;
+    border: #04859D 3px solid;
+    cursor: pointer;
+    margin: 10px;
+}
+#b1{
+    background-image: url('\\Tambov_Oblast.svg.png');
+    background-size: cover;
+    width: 90px;
+    height: 120px;
+}
+
+#b2{
+    background-image: url('\\Magadan_oblast.svg.png');
+    background-size: cover;
+    width: 90px;
+    height: 120px;
+}
+
+#b3{
+    background-image: url('\\Coat_of_arms_of_Ingushetia.svg.png');
+    background-size: cover;
+    width: 140px;
+    height: 140px;
+}
+
+#b4{
+    width: 100px;
+    height: 50px;
+    border-radius: 80px;
+    font:bold;
+}
+
+#b5{
+    background-image: url('\\Coat_of_arms_of_Mordovia.svg.png');
+    background-size: cover;
+    width: 140px;
+    height: 140px;
+}
+
+#b6{
+    background-image: url('\\200px-Coat_of_Arms_of_Yamal_Nenetsia.svg.png');
+    background-size: cover;
+    width: 140px;
+    height: 190px;
+}
+.body{
+    text-align: center;
+    background-color: white;
+    margin-right: 300px;
+    margin-left: 300px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 100px 100px 0px 0px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.body .info{
+    border: #D60062 5px solid;
+    border-radius: 100px 100px 0px 0px;
+    
+}
+
+.body .info p{
+    font-size: 30px;
+    margin: 100px;
+}
+img{
+    width: 300px;
+    height: 300px;
+}
+.t{
+    border: #04859D 10px solid;
+    width: 500px;
+    margin: 10px;
+}
+.t p{
+    font-size: 20px;
+}
+.carts{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+li{
+    text-align: left;
+    margin: 10px;
+    font-size: 30px;
+}
